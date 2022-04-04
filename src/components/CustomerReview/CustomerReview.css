@@ -1,0 +1,14 @@
+.review-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid salmon;
+    margin: 20px;
+    padding: 20px;
+}
+
+.review-info img {
+    width: 90px;
+    height: 70px;
+    border-radius: 50px;
+}

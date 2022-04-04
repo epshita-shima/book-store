@@ -1,9 +1,12 @@
 import React, { } from 'react';
+import useProducts from '../../hook/useProducts';
+import CustomerReview from '../CustomerReview/CustomerReview';
 import './Home.css';
 
 const Home = () => {
+    const [products, setProducts] = useProducts();
     return (
-        <div>
+        <div className='home-page'>
             <div className='home-heading'>
                 <div className='home-info'>
                     <h2 className='home-title'>Welcome to BookStore!</h2>
@@ -16,8 +19,15 @@ const Home = () => {
             </div>
 
             <div className='customer-review'>
-                <h2>Customer review</h2>
+                <h2>Customer review(6)</h2>
+                {
+                    products.slice(0, 3).map(product => <CustomerReview
+                        key={product.id}
+                        product={product}
+                    ></CustomerReview>)
+                }
 
+                <button className='review-btn'>See all review</button>
             </div>
         </div>
     );

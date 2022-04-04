@@ -1,3 +1,7 @@
+.home-page {
+    margin-bottom: 180px;
+}
+
 .home-heading {
     display: flex;
     justify-content: space-between;
@@ -23,4 +27,17 @@
 
 .customer-review {
     margin-top: 40px;
+}
+
+.review-btn {
+    background-color: aliceblue;
+    color: black;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.review-btn:hover {
+    background-color: salmon;
 }
