@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Kathy Lette",
+        "comments": "This book is very informative and cheap to buy",
+        "img": "https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "John Updike",
+        "comments": "Amazing storyds",
+        "img": "https://img.freepik.com/free-photo/young-beautiful-girl-black-t-shirt-pointing-fingers-side-white-wall_176420-6264.jpg",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Will Smith",
+        "comments": "A good bookshop is not just about selling books from shelves, but reaching out into the world and making a difference",
+        "img": "https://img.freepik.com/free-photo/beautiful-smiling-glamour-girl-pointing-finger-upper-left-corner-demonstrate-banner-promo_176420-25337.jpg",
+        "rating": 4.3
+    },
+    {
+        "id": 4,
+        "name": "David Almond",
+        "comments": "This store is very mervelous and deliver product so fast",
+        "img": "https://img.freepik.com/free-photo/close-up-portrait-young-pretty-woman-with-short-hairstyle-looking-camera-confident-happy-smiling-white-teeth-natural-face-expression-white-background_176420-47523.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Liane Moriarty",
+        "comments": "Next week ago, I ordered a book that is very interesting",
+        "img": "https://img.freepik.com/free-photo/beauty-hair-care-smiling-beautiful-woman-with-natural-healthy-face-long-brown-hair-waving-air-breeze-cross-arms-chest-determined-looking-pleased-camera-white-background_176420-44836.jpg",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Robert Frost",
+        "comments": "I love visiting into a bookstore. Its like all my friends are sitting on shelves, waving their pages at me. ",
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-confident-woman-feeling-ready-determined-cross-arms-chest-selfassured-looking-camera-standing-against-white-background_176420-53434.jpg",
+        "rating": 4.5
+    }
+]

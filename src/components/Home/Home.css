@@ -1,0 +1,26 @@
+.home-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.home-title {
+    font-size: 42px;
+    color: chocolate;
+}
+
+.home-info {
+    padding: 20px;
+}
+
+.home-info p {
+    font-size: 18px;
+}
+
+.home-img {
+    padding: 20px;
+}
+
+.customer-review {
+    margin-top: 40px;
+}
