@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 const useProducts = () => {
     const [products, setProducts] = useState([]);
+    console.log(products);
     useEffect(() => {
-        fetch('https://bookstore.free.beeceptor.com/')
+        fetch('data.json')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])

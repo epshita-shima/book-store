@@ -1,9 +1,18 @@
 import React from 'react';
+import useProducts from '../../hook/useProducts';
+import ReviewData from '../ReviewData/ReviewData';
 
 const Review = () => {
+    const [products, setProducts] = useProducts();
+    console.log(products);
     return (
         <div>
-            <h2>This is review</h2>
+            {
+                products.map(product => <ReviewData
+                    key={product.id}
+                    product={product}
+                ></ReviewData>)
+            }
         </div>
     );
 };

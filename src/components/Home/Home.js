@@ -1,10 +1,13 @@
 import React, { } from 'react';
+import { Link } from 'react-router-dom';
 import useProducts from '../../hook/useProducts';
 import CustomerReview from '../CustomerReview/CustomerReview';
+import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
     const [products, setProducts] = useProducts();
+
     return (
         <div className='home-page'>
             <div className='home-heading'>
@@ -26,8 +29,9 @@ const Home = () => {
                         product={product}
                     ></CustomerReview>)
                 }
-
-                <button className='review-btn'>See all review</button>
+                <Link to='/review'>
+                    <button className='review-btn'>See all comments</button>
+                </Link>
             </div>
         </div>
     );
