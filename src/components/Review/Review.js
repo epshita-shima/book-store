@@ -4,7 +4,6 @@ import ReviewData from '../ReviewData/ReviewData';
 
 const Review = () => {
     const [products, setProducts] = useProducts();
-    console.log(products);
     return (
         <div>
             {

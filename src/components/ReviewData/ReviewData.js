@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ReviewData = (props) => {
-    console.log(props);
     const { name, img, comments, rating } = props.product;
     return (
         <div>
