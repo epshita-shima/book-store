@@ -1,6 +1,6 @@
 # BookStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project live link: (https://timely-mochi-4b92ca.netlify.app).
 ### Review About Store and Product
 
 ### Customer Review 
