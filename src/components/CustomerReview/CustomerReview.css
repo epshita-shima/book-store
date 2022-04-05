@@ -1,14 +1,38 @@
+.customer {
+    width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.review-half {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.customer-review {
+    margin-top: 40px;
+
+}
+
+.customer-review-half {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .review-info {
     display: flex;
+    width: 300px;
+    height: 300px;
     justify-content: space-around;
     align-items: center;
     border: 1px solid salmon;
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
 }
 
 .review-info img {
-    width: 90px;
-    height: 70px;
-    border-radius: 50px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
 }

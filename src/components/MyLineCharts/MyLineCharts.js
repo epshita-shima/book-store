@@ -51,6 +51,7 @@ const MyLineCharts = () => {
                         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
                         <XAxis dataKey={'month'}></XAxis>
                         <YAxis></YAxis>
+                        <Tooltip></Tooltip>
                     </LineChart>
                 </div>
                 <div>
@@ -99,10 +100,10 @@ const MyLineCharts = () => {
                         }}
                     >
                         <CartesianGrid />
-                        <XAxis type="number" dataKey="revenue" name="stature" unit="cm" />
-                        <YAxis type="number" dataKey="investment" name="weight" unit="kg" />
+                        <XAxis type="number" dataKey="investment" name="taka" unit="taka" />
+                        <YAxis type="number" dataKey="revenue" name="taka" unit="taka" />
                         <Tooltip cursor={{ strokeDasharray: '3 3' }} />
-                        <Scatter name="month" data={data} fill="#8884d8" />
+                        <Scatter name="An Organaization" data={data} fill="#8884d8" />
                     </ScatterChart>
                 </div>
             </div>

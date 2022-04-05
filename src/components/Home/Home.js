@@ -2,7 +2,6 @@ import React, { } from 'react';
 import { Link } from 'react-router-dom';
 import useProducts from '../../hook/useProducts';
 import CustomerReview from '../CustomerReview/CustomerReview';
-import Review from '../Review/Review';
 import './Home.css';
 
 const Home = () => {
@@ -21,14 +20,16 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='customer-review'>
+            <div className='review-half'>
                 <h2>Customer review(6)</h2>
-                {
-                    products.slice(0, 3).map(product => <CustomerReview
-                        key={product.id}
-                        product={product}
-                    ></CustomerReview>)
-                }
+                <div className='customer-review-half'>
+                    {
+                        products.slice(0, 3).map(product => <CustomerReview
+                            key={product.id}
+                            product={product}
+                        ></CustomerReview>)
+                    }
+                </div>
                 <Link to='/review'>
                     <button className='review-btn'>See all comments</button>
                 </Link>

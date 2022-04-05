@@ -6,12 +6,15 @@ const Review = () => {
     const [products, setProducts] = useProducts();
     return (
         <div>
-            {
-                products.map(product => <ReviewData
-                    key={product.id}
-                    product={product}
-                ></ReviewData>)
-            }
+            <h2>What our Customer Say!!</h2>
+            <div className='customer'>
+                {
+                    products.map(product => <ReviewData
+                        key={product.id}
+                        product={product}
+                    ></ReviewData>)
+                }
+            </div>
         </div>
     );
 };
